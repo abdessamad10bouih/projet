@@ -1,0 +1,558 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ephesis&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@300&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Manrope;
+    width: auto;
+    box-sizing: border-box;
+}
+
+/*navbar begins*/
+.firstdiv{
+    border: 2px solid #2b1508;
+    background-color: #2b1508;
+    width: 100%;
+    height: 15vh;
+}
+
+.seconddiv{
+    border: 2px solid #d66d12b6;
+    background-color: #d66d12b6;
+    width: 100%;
+    height: 12vh;
+}
+
+.seconddiv .logo{
+    position: relative;
+    max-width: 90px;
+    aspect-ratio: 1 /1;
+}
+
+nav ul{
+  display: flex;
+  align-items: center;
+  position: relative;
+  float: right;
+  top: 32px;
+  margin-right: 170px;
+}
+nav li{
+    margin-right: 80px;
+    list-style: none;
+}
+nav a{
+    color: #48240e;
+    text-decoration: none;
+}
+
+@media screen and (width >= 600px) {
+    .firstdiv{
+        width: 100%;
+    }
+    .seconddiv{
+        width: 100%;
+        height: 10vh;
+    }
+    .seconddiv .logo{
+        position: relative;
+        width: 60px;
+    }
+    nav ul li a {
+        display: none;
+    }
+}
+/*navbar ends*/
+/*start hero section*/
+.bodi{
+    width: 100%;
+    height: 100vh;
+}
+.bodi img{
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+    z-index: -10;
+}
+.h-section{
+    position: absolute;
+    top: 300px;
+    left: 260px;
+    width: 900px;
+    height: 490px;
+    border-radius: 20px;
+    background-color: white;
+    z-index: 20;
+}
+.h-section h1{
+    position: relative;
+    text-align: left;
+    margin-left: 20px;
+    font-family: Ephesis;
+    font-size: 60px;
+    top: 50px;
+    color: #d66d12;
+}
+.h-section span{
+    color: #2b1508;
+    font-family: Ephesis;
+}
+.h-section p{
+    position: relative;
+    top: 70px;
+    font-size: larger;
+    margin-left: 20px;
+    font-family: Open Sans;
+}
+.h-section button{
+    position: relative;
+    top: 100px;
+    margin-left: 20px;
+    width: 100px;
+    height: 50px;
+    border: none;
+    border-radius: 20px;
+    background-color: #d66d12;
+    cursor: pointer;
+}
+.h-section .btn2{
+    position: relative;
+    top: 100px;
+    margin-left: 20px;
+    width: 100px;
+    height: 50px;
+    border: none;
+    border-radius: 20px;
+    background-color: #d66d123f;
+    cursor: pointer;
+}
+.h-section button a{
+    color: #2b1508;
+}
+.h-section button:hover{
+    background-color: #2b1508;
+    color: #d66d12;
+}
+.h-section a:hover{
+    color: #d66d12;
+}
+.h-image{
+    position: absolute;
+    top: 395px;
+    left: 590px;
+    z-index: 25;
+    
+}
+.h-image img{
+    width: 900px;
+}
+@media screen and (max-width: 600px) {
+    .bodi {
+        width: 100%;
+        height: 100vh;
+    }
+
+    .bodi img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+}
+
+/*end hero section*/
+/*Start "why chose us"*/
+.main-line{
+    position: relative;
+    top: 40px;
+    text-align: center;
+    font-size: 22px;
+}
+.main-line span{
+   font-family: Ephesis;
+   color: #d66d12;
+   font-size: 39px;
+}
+
+.cards{
+    display: flex;
+    width: 100%;
+    height: 90vh;
+}
+.bak-icon{
+    width: 2000px;
+    height: auto;
+}
+.bak-icon img{
+    width: 100%;
+    position: relative;
+    top: 90px;
+    left: -20px;
+}
+.forcards{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+.forcard{
+    position: relative;
+    top: 60px;
+}
+.card1on1{
+    position: relative;
+    display: flex;
+    background-color: white;
+    box-shadow: 2px 2px 30px rgba(0,0,0,0.1);
+    border-radius: 10px;
+    left: -20px;
+}
+.card1on1 .card1{
+    border: 1px solid black;
+    width: 40%;
+    height: 200px;
+}
+.card1on1 img{
+    width: 100%;
+    height: 200px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    object-fit: cover;
+}
+.card1on1 h1{
+    position: relative;
+    left: 34%;
+    font-family: Manrope;
+    color: #d66d12;
+    -webkit-text-stroke: 0.1px;
+    -webkit-text-stroke-color: #2b1508;
+    font-weight: 1000;
+}
+.card1on1 p{
+    position: relative;
+    text-align: left;
+    top: 40px;
+    left: -50px;
+    font-size: 19px;
+}
+
+.card2on2{
+    position: relative;
+    display: flex;
+    margin-top: 20px;
+    background-color: white;
+    box-shadow: 2px 2px 30px rgba(0,0,0,0.1);
+    border-radius: 10px;
+    left: -20px;
+}
+.card2on2 .card1{
+    border: 1px solid black;
+    width: 40%;
+    height: 200px;
+}
+.card2on2 img{
+    width: 100%;
+    height: 200px;
+    position: relative;
+    left: 79%;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    object-fit: cover;
+}
+.card2on2 h1{
+    position: relative;
+    left: 80px;
+    font-family: Manrope;
+    color: #d66d12;
+    -webkit-text-stroke: 0.1px;
+    -webkit-text-stroke-color: #2b1508;
+    font-weight: 1000;
+}
+.card2on2 p{
+    position: relative;
+    text-align: left;
+    top: 40px;
+    left: -300px;
+    font-size: 19px;
+}
+
+.card3on3{
+    position: relative;
+    margin-top: 20px ;
+    display: flex;
+    background-color: white;
+    box-shadow: 2px 2px 30px rgba(0,0,0,0.1);
+    border-radius: 10px;
+    left: -20px;
+}
+.card3on3 .card1{
+    border: 1px solid black;
+    width: 40%;
+    height: 200px;
+}
+.card3on3 img{
+    width: 100%;
+    height: 200px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    object-fit: cover;
+}
+.card3on3 h1{
+    position: relative;
+    left: 34%;
+    font-family: Manrope;
+    color: #d66d12;
+    -webkit-text-stroke: 0.1px;
+    -webkit-text-stroke-color: #2b1508;
+    font-weight: 1000;
+}
+.card3on3 p{
+    position: relative;
+    text-align: left;
+    top: 40px;
+    left: -50px;
+    font-size: 19px;
+}
+/*End "why chose us"*/
+/*Clients says*/
+#testimonials{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width:100%;
+}
+.testimonial-heading{
+    letter-spacing: 1px;
+    margin: 30px 0px;
+    padding: 10px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.testimonial-heading h1{
+    font-size: 2.2rem;
+    font-family: Manrope;
+    font-weight: 500;
+    background-color:#d66d12;
+    color:#2b1508;
+    padding: 10px 20px;
+}
+.testimonial-heading span{
+    font-size: 1.3rem;
+    font-family: Manrope;
+    color: #252525;
+    margin-bottom: 10px;
+    letter-spacing: 2px;
+}
+.testimonial-box-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width:100%;
+}
+.testimonial-box{
+    width:500px;
+    box-shadow: 2px 2px 30px rgba(0,0,0,0.1);
+    background-color: #ffffff;
+    padding: 20px;
+    margin: 15px;
+    cursor: pointer;
+}
+.profile-img{
+    width:50px;
+    height: 50px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-right: 10px;
+}
+.profile-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+.profile{
+    display: flex;
+    align-items: center;
+}
+.name-user{
+    display: flex;
+    flex-direction: column;
+}
+.name-user strong{
+    color: #3d3d3d;
+    font-size: 1.1rem;
+    letter-spacing: 0.5px;
+}
+.name-user span{
+    color: #979797;
+    font-size: 0.8rem;
+}
+.reviews{
+    color: #f9d71c;
+}
+.box-top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.client-comment p{
+    font-size: 0.9rem;
+    color: #4b4b4b;
+}
+.testimonial-box:hover{
+    transform: translateY(-10px);
+    transition: all ease 0.3s;
+}
+ 
+/*map section*/
+.map{
+    margin-top: 70px;
+    display: flex;
+    width: 100%;
+    height: 40vh;
+}
+.info{
+    background-size: cover;
+    width: 50%;
+    height: 100%;
+}
+.info img{
+    width: 100%; height: 100%;
+    filter: blur(2px);
+    object-fit: cover;
+    object-position: center;
+    opacity: 30%;
+}
+
+.info h5{
+    font-size: 20px;
+    text-align: center;
+    justify-content: center;
+    position: relative;
+    top: -260px;
+}
+
+.location{
+    width: 50%;
+    height: 100%;
+}
+.location img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+/*end map section*/
+/*Start of order now*/
+.container{
+    margin-top: 20px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    padding: 20px 100px;
+}
+.container:after{
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    z-index: -1;
+    filter: blur(50px);
+}
+
+.container-box{
+    max-width: 1850px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: aliceblue;
+}
+.left{
+    height: 100%;
+    background: url(./images/5124556.jpg) no-repeat center;
+    background-size: cover;
+
+}
+.right{
+    padding: 25px 40px;
+}
+.right h2{
+    position: relative;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+.right h2:after{
+    content: '';
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-50%);
+    height: 4px;
+    width: 50px;
+    border-radius: 2px;
+    background-color: #d66d1236;
+}
+.field{
+    width: 100%;
+    padding: 0.5rem 1rem;
+    outline: none;
+    border: 2px solid rgba(0,0,0,0);
+    background-color: #d66d1236;
+    font-size: 1.1rem;
+    margin-bottom: 22px;
+    transition: 0.3s;
+}
+.field:hover{
+    background-color: #2b1508;
+}
+.field:focus{
+    background-color: white;
+    border: 2px solid rgba(0, 0, 0, 0.247);
+}
+area{
+    min-height: 150px;
+}
+.btn{
+    width: 100%;
+    padding: 0.5rem;
+    font-size: 1.1rem;
+    background-color: #d66d12;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    color: #d66d12 ;
+    transition: 0.3s;
+}
+.btn:hover{
+    background-color: #d66d123b;
+
+}
+.eff{
+    position: absolute;
+    top: 1800px;
+    transform: rotate(45deg);
+    left: -240px;
+}
+.eff2{
+    position: absolute;
+    top: 1800px;
+    transform: rotate(-45deg);
+    right: -10px;
+}
+/*End of order now*/
